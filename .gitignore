@@ -1,0 +1,5 @@
+/.direnv
+/c
+snippets
+/target
+*.sqlite3
