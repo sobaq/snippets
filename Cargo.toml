@@ -1,5 +1,5 @@
 [package]
-name = "snippets"
+name = "snippy"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,6 +8,9 @@ cc = "1.1.6"
 
 [dependencies]
 anyhow = "1.0.86"
+blake3 = "1.5.3"
+egui_tiles = "0.9.0"
+include_dir = "0.7.4"
 rusqlite = { version = "0.31.0", features = ["load_extension"] }
 
 [dependencies.eframe]
